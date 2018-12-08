@@ -28,7 +28,7 @@ $myArray = new ArrayList([1,2,3]);
 $myArray->where(function($x) { return $x > 2; })->getFirstOrDefault(); // Returns a new ArrayList containing first or default value
 
 $myArray = new ArrayList([1,2,3]);
-$myArray->where(function($x) { return $x > 1; })->get(); // Returns a new ArrayList of all results
+$myArray->where(function($x) { return $x > 1; })->getResults(); // Returns a new ArrayList of all results
 ```
 
 # Tools you can utilize
