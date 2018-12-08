@@ -1,4 +1,4 @@
-require_once 'ArrayListResults.php';
+require_once 'ArrayListResult.php';
 
 final class ArrayList
 {
