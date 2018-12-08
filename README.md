@@ -1,5 +1,5 @@
 # ArrayList
-Lambda for PHP within Arrays.
+Lambda for PHP within Arrays. See it working over at [3v4l.org](https://3v4l.org/ppcgM);
 
 # Creating your array
 
