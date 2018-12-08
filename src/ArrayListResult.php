@@ -1,3 +1,5 @@
+namespace Jaquarh\ArrayList;
+
 final class ArrayListResult
 {
 	private $result;
