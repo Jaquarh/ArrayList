@@ -1,3 +1,5 @@
+<?php
+
 namespace Jaquarh\ArrayList;
 
 use \Exception;
