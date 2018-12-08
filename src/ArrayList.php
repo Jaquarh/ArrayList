@@ -1,3 +1,5 @@
+namespace Jaquarh\ArrayList;
+
 require_once 'ArrayListResult.php';
 
 final class ArrayList
