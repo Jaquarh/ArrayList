@@ -25,6 +25,14 @@ final class ArrayList
 
 		return new ArrayListResult( array_filter($this->array, $closure) );
 	}
+
+	public function whereKeys( $closure )
+	{
+		if( !is_callable( $closure ) )
+			throw new Exception('Parameter one expects a closure datatype.');
+
+		return new ArrayListResult( array_filter( array_keys( $this->array ), $closure ) );
+	}
 	
 	public function get() {
 		return $this->array;
