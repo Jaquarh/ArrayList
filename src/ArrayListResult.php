@@ -1,5 +1,7 @@
 namespace Jaquarh\ArrayList;
 
+use \Exception;
+
 final class ArrayListResult
 {
 	private $result;
