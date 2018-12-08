@@ -52,7 +52,7 @@ final class ArrayList
 
 		if( $this->isPresent() )
 		{
-			call_user_func_array( $closure, $this->array );
+			call_user_func( $closure, $this->array );
 		}
 	}
 }
