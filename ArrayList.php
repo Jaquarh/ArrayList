@@ -1,3 +1,5 @@
+require_once 'ArrayListResults.php';
+
 final class ArrayList
 {
 	private $array;
