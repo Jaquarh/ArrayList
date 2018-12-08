@@ -16,7 +16,7 @@ final class ArrayListResult
 	}
 	
 	public function getFirstOrDefault() {
-		return new ArrayList( $this->isPresent() ? $this->result[0] : [] );	
+		return new ArrayList( $this->isPresent() ? $this->result[array_keys($this->result)[0]] : [] );	
 	}
 	
 	public function getResults() {
