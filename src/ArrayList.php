@@ -1,5 +1,7 @@
 namespace Jaquarh\ArrayList;
 
+use \Exception;
+
 require_once 'ArrayListResult.php';
 
 final class ArrayList
