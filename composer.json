@@ -1,0 +1,24 @@
+{
+    "name": "ArrayList",
+    "description": "A simple library for arrays to use lambda.",
+    "homepage": "https://github.com/Jaquarh/ArrayList",
+    "authors": [
+        {
+            "name": "Kyle Jeynes",
+            "email": "okaydots@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jaquarh\\ArrayList\\": "test"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": " 4.8.35"
+    }
+}
